@@ -87,6 +87,13 @@ section {
     box-shadow: 0 0 10px #ffffff inset;
 }
 
+/*
+.home-content {
+    position: absolute;
+    top: 40%;
+}
+*/
+
 .home .home-content h1 {
     font-size: 6rem;
     font-weight: 700;

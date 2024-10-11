@@ -110,41 +110,41 @@ style emoji?
 
 </head>
 
-<body>
-    <header>
-        <a href = "#" class = "nav-logo">Brian</a>
+<body class = "bg-black white">
+    <header class = "absolute bg-black flex align-items-center justify-content-between z-100">
+        <a href = "#" class = "nav-logo weight-700 spec-purple">Brian</a>
         <nav>
-            <a href = "#">Home</a>
-            <a href = "#about">About</a>
-            <a href = "#">Projects</a>
-            <a href = "#">Experience</a>
+            <a href = "#" class = "weight-500 white">Home</a>
+            <a href = "#about" class = "weight-500 white">About</a>
+            <a href = "#" class = "weight-500 white">Projects</a>
+            <a href = "#" class = "weight-500 white">Experience</a>
         </nav>
     </header>
 
-    <section class = "home">
+    <section class = "home flex align-items-center justify-content-center">
         <div class = "home-img">
-            <img src = "src/media/main.png" alt = "">
+            <img src = "src/media/main.png" alt = "" class = "relative">
         </div>
-        <div class = "home-content">
-            <h1>
-                Hello, I'm <span>Brian</span>👋
+        <div class = "home-content absolute">
+            <h1 class = "weight-700">
+                Hello, I'm <span class = "spec-purple">Brian</span>👋
             </h1>
             <p>
                 Self-taught computer science enthusiast with an interest in web dev, app dev, and cybersecurity. Eager to learn and make new things.
             </p>
-            <div class = "home-icons">
+            <div class = "home-icons align-items-center flex">
                 <div class = "social-icon">
-                    <a href = ""><i class = "fa-brands fa-linkedin"></i></a>
-                    <a href = "https://github.com/br-iscool"><i class = "fa-brands fa-github"></i></a>
-                    <a href = ""><i class = "fa-brands fa-instagram"></i></a>
+                    <a href = "" class = "inline-flex justify-content-center align-items-center bg-black spec-purple"><i class = "fa-brands fa-linkedin"></i></a>
+                    <a href = "https://github.com/br-iscool" class = "inline-flex justify-content-center align-items-center bg-black spec-purple"><i class = "fa-brands fa-github"></i></a>
+                    <a href = "" class = "inline-flex justify-content-center align-items-center bg-black spec-purple"><i class = "fa-brands fa-instagram"></i></a>
                 </div>
-                <a href = "mailto:" class = "contact-icon">Contact me</a>
+                <a href = "mailto:" class = "contact-icon inline-block bg-black spec-purple weight-600">Contact me</a>
             </div>
         </div>
     </section>
     
     <a name = "about"></a>
-    <section class = "about">
+    <section class = "about bg-black">
         <div class = "about-content">
             <h1>
                 About me
@@ -166,5 +166,11 @@ style emoji?
 
         </div>
     </section>
+
+    <section class = "footer">
+        <div class = "footer-content">
+        </div>
+    </section>
+
 </body>
 </html>

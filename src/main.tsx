@@ -14,6 +14,8 @@ createRoot(document.getElementById('root')!).render(
     <>
       {/* TODO
         Do about me section
+        Transfer to next.js
+        Convert .css to tailwind
         Make the header look better (centered island?)
         animate on scroll? (testing with keyframes)
         <noscript> tag

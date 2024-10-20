@@ -23,7 +23,7 @@ const Home = () => {
                 <a href = "" className = "inline-flex justify-center items-center bg-black spec-purple">
                     <FontAwesomeIcon icon = { faLinkedin }/>
                 </a>
-                <a href = "https://github.com/br-iscool" className = "inline-flex justify-center items-center bg-black spec-purple">
+                <a href = "https://github.com/br-iscool" target = "_blank" className = "inline-flex justify-center items-center bg-black spec-purple">
                     <FontAwesomeIcon icon = { faGithub }/>
                 </a>
                 <a href = "" className = "inline-flex justify-center items-center bg-black spec-purple">

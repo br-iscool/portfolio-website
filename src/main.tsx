@@ -16,12 +16,12 @@ createRoot(document.getElementById('root')!).render(
         Do about me section
         Make the header look better (centered island?)
         animate on scroll? (testing with keyframes)
-        delay on shader (3s)?
+        <noscript> tag
         compatible on mobile (center the divs and make it overlap)
         make it so that box-shader doesnt break when resizing window
         turn off / on shader button
-        Go through css and remove redundant (from .nav-logo)
-        style emoji?
+        Go through css and remove redundant (from .nav-logo) and convert to tailwind
+        Make footer 
 
         */}
 

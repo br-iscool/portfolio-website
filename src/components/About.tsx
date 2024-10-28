@@ -1,4 +1,5 @@
-import "../css/index.css";
+import "../app/styles/index.css";
+
 
 const About = () => {
   return (

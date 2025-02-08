@@ -1,15 +1,14 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Gradient from "@/components/Gradient";
 
 export default function Home() {
   	return (
     	<>
       		{/* TODO
-			Readd shader support
 			Figure out props / and better project layout and structure
 			Do about me section
-			Remove redundant css and convert .css to tailwind and remove css folder
 			Make the header look better (centered island?)
 			animate on scroll? (testing with keyframes)
 			<noscript> tag
@@ -19,8 +18,8 @@ export default function Home() {
 			Make footer 
 
 			*/}
-
 			<Navbar />
+			<Gradient />
 			<Hero />
 			<About />
     	</>

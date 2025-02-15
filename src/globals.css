@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 * {
 	font-family: "Open Sans", sans-serif;
@@ -37,11 +35,6 @@ nav a:hover,
 nav a.active {
 	color: #7982ef;
 	border-bottom: 3px solid #7982ef;
-}
-
-.home-img img:hover {
-	font-size: 1.8rem;
-	font-weight: 500;
 }
 
 .social-icon a {

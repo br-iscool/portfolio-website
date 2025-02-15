@@ -4,9 +4,10 @@ import About from "../components/About";
 import Gradient from "@/components/Gradient";
 
 export default function Home() {
-  	return (
-    	<>
-      		{/* TODO
+	return (
+		<>
+			{/* TODO
+			Finish dynamic island (get rid of npm and utils if current isn't good)
 			Figure out props / and better project layout and structure
 			Do about me section
 			Make the header look better (centered island?)
@@ -22,6 +23,6 @@ export default function Home() {
 			<Gradient />
 			<Hero />
 			<About />
-    	</>
-  	);
+		</>
+	);
 }

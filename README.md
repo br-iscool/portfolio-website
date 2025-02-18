@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Built using Next.js, Typescript, and Tailwind
+Built using Next.js, Framer Motion, Typescript, and Tailwind
 
 Uses a shader from https://shadertoy.com and https://github.com/xemantic/shader-web-background for rendering
 

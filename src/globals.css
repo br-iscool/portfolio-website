@@ -26,15 +26,12 @@ body {
 	background: var(--background);
 }
 
-nav a {
+header a {
 	transition: 0.5s ease;
-	border-bottom: 3px solid transparent;
 }
 
-nav a:hover,
-nav a.active {
+header a:hover {
 	color: #7982ef;
-	border-bottom: 3px solid #7982ef;
 }
 
 .social-icon a {
@@ -81,4 +78,8 @@ nav a.active {
 
 .spec-purple {
 	color: #7982ef;
+}
+
+.box-shadow {
+	box-shadow: 0 0 10px #ffffff inset;
 }

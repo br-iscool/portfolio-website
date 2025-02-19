@@ -1,11 +1,15 @@
-import { Open_Sans } from "next/font/google";
+import { Inter, Open_Sans } from "next/font/google";
 
-const openSans = Open_Sans({
-	variable: "--font-open-sans",
-	subsets: ["latin"],
-	weight: ["400", "500", "700"],
+export const openSans = Open_Sans({
+    subsets: ["latin"],
+    variable: "--font-open-sans",
+    weight: ["400", "700"],
 });
 
-const fonts = `${openSans.variable}`;
+export const inter = Inter({
+    subsets: ["latin"],
+    variable: "--font-inter",
+    weight: ["400", "700"],
+});
 
-export default fonts;
+export default `${openSans.variable} ${inter.variable}`;

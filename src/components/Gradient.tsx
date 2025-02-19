@@ -31,7 +31,7 @@ export default function Gradient(props: DetailedHTMLProps<CanvasHTMLAttributes<H
 
 	return (
 		<>
-			<script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js" />
+			<script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js" defer={true}/>
 			<script ref={shaderRef} type="x-shader/x-fragment" id="Image" dangerouslySetInnerHTML={{ __html: shader }} />
 			<canvas {...props} className={`${styles.canvas} ${styles.fallback}`} ref={canvasRef} />
 		</>

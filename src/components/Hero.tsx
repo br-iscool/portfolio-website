@@ -9,7 +9,7 @@ export default function Hero() {
 
                     </div>
                     <div>
-                        <Image src="/favicon.ico" alt="Headshot" width={500} height={500} />
+                        <Image src="/favicon.ico" alt="Headshot" width={500} height={500} loading="eager" />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import "../globals.css";
+import "../styles/globals.css";
 import { openSans } from "@/utils/fonts";
 
 import { config } from "@fortawesome/fontawesome-svg-core";

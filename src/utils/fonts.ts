@@ -9,7 +9,7 @@ export const openSans = Open_Sans({
 export const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
-    weight: ["400", "700"],
+    weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
 
 export default `${openSans.variable} ${inter.variable}`;

@@ -29,28 +29,6 @@ header a:hover {
 	color: #7982ef;
 }
 
-.social-icon a {
-	border: 0.2rem solid #7982ef;
-}
-
-.social-icon a:hover {
-	color: #000000;
-	transform: scale(1.3) translateY(-5px);
-	background-color: #7982ef;
-	box-shadow: 0 0 25px #7982ef;
-}
-
-.contact-icon {
-	border: 2px solid #7982ef;
-}
-
-.contact-icon:hover {
-	transform: scale3d(1.03);
-	background-color: #7982ef;
-	color: #000000;
-	box-shadow: 0 0 25px #7982ef;
-}
-
 /* Custom scrollbar */
 
 ::-webkit-scrollbar {

@@ -14,7 +14,7 @@ export default function HeroButton({ icon, className, href }: HeroButtonProps) {
             <motion.button
                 className={`bg-black w-12 h-12 cursor-pointer border-[#7982ef] border-2 rounded-[50%] ${className}`}
                 whileHover={{ scale: 1.05, rotate: -15 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.2 }}
             >
                 <FontAwesomeIcon icon={icon} className="" />
             </motion.button>

@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/postcss": "^4.0.9",
-    "install": "^0.13.0",
+    "lenis": "^1.1.22",
     "motion": "^12.4.7",
     "next": "^15.2.0",
     "postcss": "^8.5.3",

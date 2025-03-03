@@ -3,7 +3,7 @@
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
 import Link from "next/link";
-import Button from "../components/ui/Button";
+import NavButton from "./ui/NavButton";
 
 export default function Navbar() {
     const [hidden, setHidden] = useState(false);
@@ -21,9 +21,13 @@ export default function Navbar() {
             animate={{ y: hidden ? -100 : 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-            <div className="flex items-center justify-center pl-5">
-                <Link href={"/"} className="py-4 text-xs font-bold duration-75 hover:scale-110">{"Home"}</Link>
-            </div>
+            <motion.div 
+                className="flex items-center justify-center pl-5"
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3}}
+            >
+                <Link href={"/"} className="py-4 text-xs font-bold duration-75">{"Home"}</Link>
+            </motion.div>
             <ul className="w-full flex-col justify-center gap-10 max-sm:gap-5 max-sm:pt-10 sm:flex sm:flex-row">
                 <li>
                     <Link href={"#about"} className="py-4 text-[12.5px]">{"About"}</Link>
@@ -37,7 +41,7 @@ export default function Navbar() {
             </ul>
 
             <div className="flex items-center justify-center">
-                <Button />
+                <NavButton />
             </div>
         </motion.header>
     );

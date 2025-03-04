@@ -8,6 +8,7 @@ export default function Home() {
 	return (
 		<>
 			{/* TODO
+			Refactor hero section
 			Do about me section
 			Do tech stack / skills section
 			Finish dynamic island (loading animation, styling)

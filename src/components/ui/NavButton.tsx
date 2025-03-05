@@ -39,7 +39,7 @@ export default function NavButton() {
                 onChange={handleClick}
                 className="sr-only"
             />
-            <div className="block h-7 w-13 rounded-full bg-gray-300"></div>
+            <div className="block h-7 w-13 rounded-full bg-gray-400 opacity-25"></div>
             <div
                 className={`dot absolute left-1 top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white transition-transform ${
                     isChecked ? "" : "translate-x-6"

@@ -14,10 +14,10 @@ export default function About() {
 						</div>
                         <div className="w-full font-light">
                             <p className="text-lg mb-6">
-                                Hi, I'm Brian Deng, a passionate Full Stack Developer based in Canada. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                Hi, I'm Brian Deng, a freelance full stack developer based in Canada. Click <Link className="font-semibold hover:underline" href={""} target="_blank">here</Link> for my resume.
                             </p>
                             <p className="text-lg mb-6">
-								Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+								
                             </p>
                             <p className="text-lg">
 								Currently living in <Link className="font-semibold hover:underline" href={"https://www.google.ca/maps?q=,+Edmonton,+AB,+,+ca"} target="_blank">Edmonton, Canada.</Link>

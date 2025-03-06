@@ -9,6 +9,12 @@ config.autoAddCss = false;
 
 export const metadata: Metadata = {
     title: "Brian Deng | Developer",
+    authors: [
+        {
+            name: "Brian Deng",
+        }
+    ],
+    description: "Full Stack Developer. Location: Edmonton, Alberta",
 };
 
 export default function RootLayout({

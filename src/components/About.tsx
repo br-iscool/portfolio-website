@@ -1,32 +1,30 @@
-import { inter } from "@/utils/fonts";
 import Link from "next/link";
+import Card from "./ui/Card";
 
 export default function About() {
     return (
-        <>
-            <section className={`bg-black h-full py-36 text-white ${inter.className}`} id="about">
-                <div className="max-w-4xl mx-auto">
-                    <div className="flex flex-col items-center justify-center p-10 bg-[#262626] rounded-xl">
-						<div className="w-full text-left">
-							<h1 className="text-3xl font-semibold mb-8">
-								About
-							</h1>
-						</div>
-                        <div className="w-full font-light">
-                            <p className="text-lg mb-6">
-                                Hi, I'm Brian Deng, a freelance full stack developer based in Canada. Click <Link className="font-semibold hover:underline" href={""} target="_blank">here</Link> for my resume.
-                            </p>
-                            <p className="text-lg mb-6">
-								
-                            </p>
-                            <p className="text-lg">
-								Currently living in <Link className="font-semibold hover:underline" href={"https://www.google.ca/maps?q=,+Edmonton,+AB,+,+ca"} target="_blank">Edmonton, Canada.</Link>
-							</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
+        <Card
+            title="About"
+            id="about"
+            description={[
+                <>
+                    Hey 👋, I'm Brian Deng, a freelance full stack developer based in Canada. Click {" "}
+                    <Link className="font-semibold hover:underline" href="" target="_blank">
+                        here
+                    </Link>
+                    {" "} for my resume.
+                </>,
+                <>
+                    High school junior with over six years of computer science experience and two years in web development. Always looking for new opportunities to learn and improve.
+                </>,
+                <>
+                    Currently living in {""}
+                    <Link className="hover:underline" href={"https://www.google.ca/maps?q=,+Edmonton,+AB,+,+ca"} target="_blank">
+                        Edmonton, Canada.
+                    </Link>
+                </>
+            ]}
+        />
     );
 }
 

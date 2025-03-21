@@ -5,28 +5,14 @@
 }
 
 :root {
-	--background: #ffffff;
-	--foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background: #0a0a0a;
-		--foreground: #ededed;
-	}
+	--background: #171717;
+	--foreground: #ffffff;
+	--purple: #7982ef;
 }
 
 body {
 	color: var(--foreground);
 	background: var(--background);
-}
-
-header a {
-	transition: 0.5s ease;
-}
-
-header a:hover {
-	color: #7982ef;
 }
 
 /* Custom scrollbar */
@@ -48,10 +34,6 @@ header a:hover {
 }
 
 /* CSS classes */
-
-.spec-purple {
-	color: #7982ef;
-}
 
 .box-shadow {
 	box-shadow: 0 0 10px #ffffff inset;

@@ -20,7 +20,7 @@ export default function Hero() {
 				</div>
 
 				<div>
-					<Image src="/favicon.ico" alt="Headshot" width={250} height={250} className="rounded-full border-2 border-white shadow-lg" loading="eager" />
+					<Image src="/favicon.ico" alt="Headshot" width={250} height={250} className="rounded-full border-2 border-white shadow-lg" loading="eager" priority={true} />
 				</div>
 			</div>
 		</section>

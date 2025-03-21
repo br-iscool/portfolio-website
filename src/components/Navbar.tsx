@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <motion.header
-            className={`fixed inset-0 top-5 z-50 mx-auto flex h-[50px] max-w-4xl rounded-full p-3 px-2 font-medium shadow-md ring-2 ring-[#7982ef] backdrop-blur-3xl ${openSans.className}`}
+            className={`fixed inset-0 top-5 z-50 mx-auto flex h-[50px] max-w-4xl rounded-full p-3 px-2 font-medium shadow-md ring-2 ring-[var(--purple)] backdrop-blur-3xl ${openSans.className}`}
             initial={{ y: 0 }}
             animate={{ y: hidden ? -100 : 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
@@ -31,13 +31,13 @@ export default function Navbar() {
             </motion.div>
             <ul className="w-full flex-col justify-center gap-10 max-sm:gap-5 max-sm:pt-10 sm:flex sm:flex-row">
                 <li>
-                    <Link href={"#about"} className="py-4 text-[12.5px]">{"About"}</Link>
+                    <Link href={"#about"} className="py-4 text-[12.5px] transition duration-500 hover:text-[var(--purple)]">{"About"}</Link>
                 </li>
                 <li>
-                    <Link href={"#skills"} className="py-4 text-[12.5px]">{"Skills"}</Link>
+                    <Link href={"#skills"} className="py-4 text-[12.5px] transition duration-500 hover:text-[var(--purple)]">{"Skills"}</Link>
                 </li>
                 <li>
-                    <Link href={"#projects"} className="py-4 text-[12.5px]">{"Projects"}</Link>
+                    <Link href={"#projects"} className="py-4 text-[12.5px] transition duration-500 hover:text-[var(--purple)]">{"Projects"}</Link>
                 </li>
             </ul>
 

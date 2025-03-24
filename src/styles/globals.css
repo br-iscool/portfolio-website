@@ -5,14 +5,16 @@
 }
 
 :root {
-	--background: #171717;
+	--bg-primary: #141414;
+	--bg-secondary: #171717;
+	--bg-tertiary: #262626;
 	--foreground: #ffffff;
+	--outline: #454545;
 	--purple: #7982ef;
 }
 
 body {
 	color: var(--foreground);
-	background: var(--background);
 }
 
 /* Custom scrollbar */

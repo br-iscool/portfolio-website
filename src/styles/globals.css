@@ -15,6 +15,7 @@
 
 body {
 	color: var(--foreground);
+	background: var(--bg-primary);
 }
 
 /* Custom scrollbar */

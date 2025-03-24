@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero() {
 	return (
-		<section className="box-shadow flex min-h-screen items-center justify-center gap-20 p-12" id="home">
+		<section className="home box-shadow flex min-h-screen items-center justify-center gap-20 p-12" id="home">
 			<div className="w-full relative flex gap-40 justify-center items-center">
 				<div className="w-2xl h-full flex flex-col justify-center gap-4 text-white">
 					<p className="text-lg font-light">Hi, I'm</p>

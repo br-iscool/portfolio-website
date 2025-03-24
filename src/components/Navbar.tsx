@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <motion.header
-            className={`fixed inset-0 top-5 z-50 mx-auto flex h-[50px] max-w-4xl rounded-full p-3 px-2 font-medium shadow-md ring-2 ring-[var(--purple)] backdrop-blur-3xl ${openSans.className}`}
+            className={`fixed inset-0 top-7 z-50 mx-auto flex h-[50px] max-w-4xl rounded-full p-3 px-2 font-medium shadow-md ring-2 ring-[var(--purple)] backdrop-blur-3xl ${openSans.className}`}
             initial={{ y: 0 }}
             animate={{ y: hidden ? -100 : 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}

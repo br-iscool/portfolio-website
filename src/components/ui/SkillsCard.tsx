@@ -1,12 +1,17 @@
+
 interface SkillsCardProps {
     icon: string;
+    text: string;
 }
 
-export default function SkillsCard({ icon }: SkillsCardProps) {
+export default function SkillsCard({ icon, text }: SkillsCardProps) {
     return (
-        <div className="relative flex flex-col shadow-md rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 max-w-sm">
-            <div className="relative flex justify-center items-center h-48 bg-[#262626]">
-                <img src={icon} alt="Icon" className="w-20" />
+        <div className="group items-center gap-5 p-4 flex w-full max-w-xs bg-[var(--bg-secondary)] border-[var(--outline)] border-1 rounded-xl">
+            <div className="w-16 p-4 bg-[var(--bg-tertiary)] rounded-xl">
+                <img src={icon} alt="Icon" />
+            </div>
+            <div>
+                <p className="text-md">{text}</p>
             </div>
         </div>
     );

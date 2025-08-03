@@ -15,7 +15,11 @@ export default function About() {
                     {" "} for my resume.
                 </>,
                 <>
-                    High school junior with over six years of computer science experience and two years in web development. Always looking for new opportunities to learn and improve.
+                    High school senior with over six years of combined experience in full-stack development, SaaS, JS / TS and Python technologies. 
+                    My work emphasizes the importance of creating high quality applications. Always looking for new opportunities to learn and improve.
+                </>,
+                <>
+                    Stack: Next.js & React, TypeScript, Express, MongoDB, Redux
                 </>,
                 <>
                     Currently living in {""}

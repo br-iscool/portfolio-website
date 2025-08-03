@@ -1,4 +1,3 @@
-
 interface SkillsCardProps {
     icon: string;
     text: string;

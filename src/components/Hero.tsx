@@ -13,9 +13,9 @@ export default function Hero() {
 					<p className="text-xl font-extralight">Full stack developer based in Canada.</p>
 
 					<div className="flex flex-row gap-4 pt-4">
-						<HeroButton icon={faLinkedin} href="https://www.linkedin.com" />
+						<HeroButton icon={faLinkedin} href="https://www.linkedin.com/in/brian-deng-597859356/" />
 						<HeroButton icon={faGithub} href="https://github.com/br-iscool" />
-						<HeroButton icon={faEnvelope} href="mailto:" />
+						<HeroButton icon={faEnvelope} href="mailto:brian.d3.2008@gmail.com" />
 					</div>
 				</div>
 

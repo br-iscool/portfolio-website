@@ -2,7 +2,7 @@ const projects = [
     {
         title: "Portfolio Website",
         description: "A personal portfolio built with React, Next.js, and Tailwind CSS",
-        image: "",
+        image: "icons/next-icon.svg",
         link: "",
         tags: [""],
     }

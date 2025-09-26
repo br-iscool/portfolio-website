@@ -22,7 +22,7 @@ export default function Navbar() {
             animate={{ y: hidden ? -100 : 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-            <motion.div 
+            <motion.div
                 className="flex items-center justify-center pl-5"
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.3}}

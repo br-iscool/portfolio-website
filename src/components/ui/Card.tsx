@@ -9,9 +9,9 @@ interface CardProps {
 // Separate each description with a fragment (<>, </>) when using this component
 export default function Card({ title, description, id }: CardProps) {
     return (
-        <section className="bg-[var(--bg-primary)] h-full pt-36 text-white" id={id}>
+        <section className="bg-(--bg-primary) h-full pt-36 text-white" id={id}>
             <div className="max-w-5xl mx-auto">
-                <div className="flex flex-col items-center justify-center p-10 bg-[var(--bg-tertiary)] rounded-xl">
+                <div className="flex flex-col items-center justify-center p-10 bg-(--bg-tertiary) rounded-xl">
                     <div className="w-full text-left">
                         <h1 className="text-4xl font-semibold mb-8">
                             {title}

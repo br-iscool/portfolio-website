@@ -10,14 +10,14 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="bg-[var(--bg-primary)] py-24" id="projects">
+        <section className="bg-(--bg-primary) py-24" id="projects">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
                 <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project, idx) => (
                         <div
                             key={idx}
-                            className="bg-[var(--bg-secondary)] rounded-xl shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300"
+                            className="bg-(--bg-secondary) rounded-xl shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300"
                         >
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                 <img
@@ -28,12 +28,12 @@ export default function Projects() {
                             </a>
                             <div className="p-6 flex flex-col flex-1">
                                 <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                                <p className="text-[var(--text-secondary)] mb-4 flex-1">{project.description}</p>
+                                <p className="text-(--text-secondary) mb-4 flex-1">{project.description}</p>
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags.map((tag, i) => (
                                         <span
                                             key={i}
-                                            className="bg-[var(--bg-tertiary)] text-xs px-3 py-1 rounded-full text-[var(--text-primary)]"
+                                            className="bg-(--bg-tertiary) text-xs px-3 py-1 rounded-full text-(--text-primary)"
                                         >
                                             {tag}
                                         </span>
@@ -43,7 +43,7 @@ export default function Projects() {
                                     href={project.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-auto inline-block text-[var(--accent)] font-semibold hover:underline"
+                                    className="mt-auto inline-block text-(--accent) font-semibold hover:underline"
                                 >
                                     View Project &rarr;
                                 </a>

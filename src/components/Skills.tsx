@@ -2,7 +2,7 @@ import SkillsCard from "./ui/SkillsCard";
 
 export default function Skills() {
     return (
-        <section className="relative bg-[var(--bg-primary)] flex align-center justify-center p-32" id="skills">
+        <section className="relative bg-(--bg-primary) flex align-center justify-center p-32" id="skills">
             <div className="flex flex-col align-center text-center max-w-5xl mx-auto">
                 <div className="pb-12 text-center">
                     <h1 className="font-bold text-4xl">Skills</h1>

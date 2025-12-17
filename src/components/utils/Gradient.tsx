@@ -3,7 +3,7 @@
 import { CanvasHTMLAttributes, DetailedHTMLProps, useLayoutEffect, useRef } from "react";
 import shader from "@/utils/shader";
 
-import styles from "@/styles/Gradient.module.css";
+import styles from "@/styles/gradient.module.css";
 
 declare global {
 	let shaderWebBackground: any;

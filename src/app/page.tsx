@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 
 /* TODO
-	Convert skills section and about section to resume section
+	Convert skills section and about section to a single resume section and move the education / experience section to show on top
 	Do projects section
 	Add resume to about section
 	Add animations to everything
@@ -25,7 +25,6 @@ export default function Home() {
 			<Gradient />
 			<Hero />
 			<About />
-			<Skills />
 			<Projects />
 			<Footer />
 		</>

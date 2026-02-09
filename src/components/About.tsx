@@ -9,13 +9,13 @@ export default function About() {
             description={[
                 <>
                     Hey 👋, I'm Brian Deng, a freelance full stack developer based in Canada. Click {" "}
-                    <Link className="font-semibold hover:underline" href="" target="_blank">
+                    <Link className="font-bold hover:underline" href="" target="_blank">
                         here
                     </Link>
                     {" "} for my resume.
                 </>,
                 <>
-                    High school senior with over six years of combined experience in full-stack development, SaaS, JS / TS and Python technologies. 
+                    High school senior with over six years of combined experience in full-stack development, SaaS, JS / TS and Python technologies.
                     My work emphasizes the importance of creating high quality applications. Always looking for new opportunities to learn and improve.
                 </>,
                 <>
